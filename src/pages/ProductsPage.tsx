@@ -178,7 +178,7 @@ export function ProductsPage() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.05 }}
-                className="w-full sm:w-1/2 lg:w-1/3 px-2 mb-4"
+                className="w-1/2 sm:w-1/2 lg:w-1/3 px-2 mb-4"
               >
                 <div className="h-full group">
                   <Link 
@@ -205,15 +205,15 @@ export function ProductsPage() {
                           </span>
                         )}
                       </div>
-                      <div className="p-4 sm:p-6">
-                        <h2 className="text-lg sm:text-xl font-semibold text-gray-900 dark:text-white mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors line-clamp-1">
+                      <div className="p-3 sm:p-6">
+                        <h2 className="text-sm sm:text-xl font-semibold text-gray-900 dark:text-white mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors line-clamp-1">
                           {product.name}
                         </h2>
-                        <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300 line-clamp-2">
+                        <p className="text-xs sm:text-base text-gray-600 dark:text-gray-300 line-clamp-2">
                           {product.description}
                         </p>
-                        <div className="mt-4 flex justify-end">
-                          <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200">
+                        <div className="mt-2 sm:mt-4 flex justify-end">
+                          <span className="inline-flex items-center px-2 sm:px-3 py-1 rounded-full text-xs font-medium bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200">
                             View Details
                           </span>
                         </div>

@@ -113,9 +113,9 @@ export function HomePage() {
                 disableOnInteraction: false,
               }}
               breakpoints={{
-                540: {
+                480: {
                   slidesPerView: Math.min(2, featuredProducts.length),
-                  spaceBetween: 20,
+                  spaceBetween: 16,
                 },
                 1024: {
                   slidesPerView: Math.min(3, featuredProducts.length),
@@ -172,7 +172,7 @@ export function HomePage() {
                 key={product.id}
                 whileHover={{ scale: 1.03 }}
                 transition={{ duration: 0.3 }}
-                className="w-full sm:w-1/2 lg:w-1/3 px-2 mb-4"
+                className="w-1/2 sm:w-1/2 lg:w-1/3 px-2 mb-4"
               >
                 <div className="h-full bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
                   <Link to={`/products/${product.id}`} className="block h-full">
@@ -195,10 +195,10 @@ export function HomePage() {
                       )}
                     </div>
                     <div className="p-4 sm:p-6">
-                      <h2 className="text-lg sm:text-xl font-semibold text-gray-900 dark:text-white mb-2 line-clamp-1">
+                      <h2 className="text-sm sm:text-xl font-semibold text-gray-900 dark:text-white mb-2 line-clamp-1">
                         {product.name}
                       </h2>
-                      <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300 line-clamp-2">
+                      <p className="text-xs sm:text-base text-gray-600 dark:text-gray-300 line-clamp-2">
                         {product.description}
                       </p>
                     </div>

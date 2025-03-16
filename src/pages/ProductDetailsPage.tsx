@@ -218,7 +218,7 @@ export function ProductDetailsPage() {
                 key={relatedProduct.id}
                 whileHover={{ scale: 1.03 }}
                 transition={{ duration: 0.3 }}
-                className="w-full sm:w-1/2 lg:w-1/4 px-2 mb-4"
+                className="w-1/2 sm:w-1/2 lg:w-1/4 px-2 mb-4"
               >
                 <div className="h-full bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
                   <Link to={`/products/${relatedProduct.id}`} className="block h-full">
@@ -230,8 +230,8 @@ export function ProductDetailsPage() {
                         loading="lazy"
                       />
                     </div>
-                    <div className="p-4">
-                      <h3 className="text-lg font-medium text-gray-900 dark:text-white line-clamp-1">
+                    <div className="p-3 sm:p-4">
+                      <h3 className="text-sm sm:text-lg font-medium text-gray-900 dark:text-white line-clamp-1">
                         {relatedProduct.name}
                       </h3>
                     </div>

@@ -1,5 +1,5 @@
 import { AnimatePresence } from 'framer-motion';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import { Footer } from './components/Footer';
 import { Navbar } from './components/Navbar';
 import { ThemeProvider } from './context/ThemeContext';
@@ -13,7 +13,7 @@ import { AdminPage } from './pages/AdminPage';
 function App() {
   return (
     <ThemeProvider>
-      <BrowserRouter>
+      <Router>
         <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors flex flex-col">
           <Navbar />
           <main className="flex-grow">
@@ -30,7 +30,7 @@ function App() {
           </main>
           <Footer />
         </div>
-      </BrowserRouter>
+      </Router>
     </ThemeProvider>
   );
 }
