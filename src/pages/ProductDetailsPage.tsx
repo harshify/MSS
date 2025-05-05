@@ -188,7 +188,7 @@ export function ProductDetailsPage() {
                 </Link>
                 <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-3 sm:space-y-0 mt-3">
                   <a 
-                    href="tel:+919990126163" 
+                    href="tel:+911233211233" 
                     className="flex items-center justify-center px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
                   >
                     <Phone className="w-4 h-4 mr-2" />
