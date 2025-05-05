@@ -78,15 +78,15 @@ export function ContactPage() {
               <MapPin className="w-6 h-6 text-blue-600" />
               <div>
                 <h3 className="font-semibold text-gray-700 dark:text-gray-300">Address</h3>
-                <p className="text-gray-600 dark:text-gray-400">New B-769,Old-B-220,Third Floor, <br /> New Ashok Nagar, <br /> Delhi-110096</p>
+                <p className="text-gray-600 dark:text-gray-400"> New Delhi, <br /> Delhi-110096</p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
               <Phone className="w-6 h-6 text-blue-600" />
               <div>
                 <h3 className="font-semibold text-gray-700 dark:text-gray-300">Phone</h3>
-                <p className="text-gray-600 dark:text-gray-400"><Link className='link' to="tel:+919990126163">9990126163</Link> <br />
-                <Link className='link' to="tel:+918178424320">8178424320</Link></p>
+                <p className="text-gray-600 dark:text-gray-400"><Link className='link' to="tel:+911233211233">1234567890</Link> <br />
+                <Link className='link' to="tel:+911233211233">1234567890</Link></p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
