@@ -14,13 +14,13 @@ export function Footer() {
             <div className="space-y-3">
               <p className="flex items-start text-gray-600 dark:text-gray-400">
                 <MapPin className="w-5 h-5 mr-2 flex-shrink-0 mt-0.5" />
-                <span>New B-769, Old-B-220, Third Floor, New Ashok Nagar, Delhi-110096</span>
+                <span>New Delhi-110096</span>
               </p>
               <p className="flex items-center text-gray-600 dark:text-gray-400">
                 <Phone className="w-5 h-5 mr-2 flex-shrink-0" />
                 <span>
-                  <Link className="hover:text-blue-600 dark:hover:text-blue-400" to="tel:+919990126163">9990126163</Link> | 
-                  <Link className="hover:text-blue-600 dark:hover:text-blue-400 ml-2" to="tel:+918178424320">8178424320</Link>
+                  <Link className="hover:text-blue-600 dark:hover:text-blue-400" to="tel:+911233211233">1234567890</Link> | 
+                  <Link className="hover:text-blue-600 dark:hover:text-blue-400 ml-2" to="tel:+911233211233">1234567890</Link>
                 </span>
               </p>
               <p className="flex items-center text-gray-600 dark:text-gray-400">
